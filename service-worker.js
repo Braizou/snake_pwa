@@ -3,10 +3,10 @@
 const CACHE_NAME = 'my-cache';
 const urlsToCache = [
   '/',
-  '/index.html',
-  '/css/style.css',
-  '/js/main.js',
-  '/path/to/other/assets',
+  './index.html',
+  './public/css/main.css',
+  './public/css/bootstrap.css',
+  './public/js/snake.js',
 ];
 
 self.addEventListener('install', event => {
